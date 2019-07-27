@@ -38,7 +38,7 @@ const buildSquares = (boxes, toggleGame) => {
     let container = document.getElementsByClassName('boxes')[0];
     container.appendChild(square);
     square.addEventListener('click', (event) => {
-      if (toggleGame) {
+      if (toggleGame && square.innerText === "") {
         playerMove(box, square);
         if (Board.checkWin()) {
           toggleGame = false;
