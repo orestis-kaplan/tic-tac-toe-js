@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
-const p1 = new Player("orestis", "X", []);
-const p2 = new Player("efrain", "O", []);
+const p1 = new Player("Player1", "X", []);
+const p2 = new Player("Player2", "O", []);
 let currentPlayer = p1;
 let nextPlayer = p2;
 
