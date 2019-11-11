@@ -6,7 +6,7 @@ Online Preview: https://userman95.github.io/tic-tac-toe-js/
 A really simple tic-tac-toe game. 
 
 # Screenshot
-![scrennshot]()
+![scrennshot](https://github.com/userman95/tic-tac-toe-js/blob/master/Screenshot%20(179).png)
 # Concepts applied here
 
 * Module pattern
